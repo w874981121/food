@@ -1,0 +1,73 @@
+/**
+ * Created wangyanqi
+ * Date 2017/11/15
+ */
+
+.food-top{
+    width: 100%;
+    height:80px;
+    background: #white;
+    overflow: hidden;
+}
+.food-content{
+    width:1100px;
+    height:80px;
+    margin: 0 auto;
+    background: #eee;
+
+}
+.food-top .food-logo-img{
+    float: left;
+    width: 80px;
+    height: 60px;
+    margin-top:10px;
+}
+.food-top .food-logo-img img{
+    height: 100%;
+}
+.food-top .food-logo-text{
+    float: left;
+    margin-top: 19px;
+}
+.food-top .food-logo-text p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.food-top .food-logo-text p font{
+    color: #e9220d;
+}
+.food-top .food-logo-text a{
+    line-height: 18px;
+    font-size: 14px;
+    color: #9c9c9c;
+    display: block;
+}
+.food-top .food-logo-text a img{
+    height: 18px;
+    vertical-align:middle
+}
+.food-top .food-nav{
+    float: left;
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.food-top .food-nav li{
+    float: left;
+    display: block;
+    margin-left: 30px;
+}
+.food-top .food-nav li a{
+    color: #333333;
+}
+.food-top .food-nav li a:active{
+    color: #e9220d;
+}
+.food-top .food-nav li a:hover{
+    color: #fb8c00;
+}
+.food-banner{
+    width: 100%;
+    height: 300px;
+    background: #cccccc;
+}
