@@ -8,7 +8,7 @@
 .food-top {
     width: 100%;
     height: 80px;
-    background: #white;
+    background: white;
 }
 
 .food-content {
@@ -189,7 +189,7 @@
     color: #666666;
 }
 
-.food-seach {
+.food-top .food-seach, .food-list .food-list-box .food-input-text {
     width: 170px;
     float: right;
     height: 28px;
@@ -198,7 +198,7 @@
     margin-top: 26px;
 }
 
-.food-seach input {
+.food-top .food-seach input, .food-list .food-list-box .food-input-text input {
     width: 120px;
     margin-left: 14px;
     line-height: 28px;
@@ -209,7 +209,7 @@
     float: left;
 }
 
-.food-seach span {
+.food-top .food-seach span {
     width: 36px;
     height: 28px;
     float: left;
@@ -276,6 +276,7 @@
 
 .food-list a {
     width: 278px;
+    height: 300px;
     display: block;
     float: left;
     margin-left: 20px;
@@ -286,7 +287,7 @@
 
 .food-list .food-list-box {
     width: 250px;
-    margin: 10px;
+    margin: 15px;
     float: left;
 }
 
@@ -392,4 +393,125 @@
 
 .food-list .food-list-box .food-list-box-p .food-list-notes .food-list-notes-text h4 {
     color: #333333;
+}
+
+.food-list .food-list-box h2 {
+    font-size: 26px;
+}
+
+.food-list .food-list-box .food-input-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    overflow: hidden;
+}
+
+.food-list .food-list-box .food-input-text input {
+    width: 144px;
+}
+
+.food-list .food-list-box button {
+    border: none;
+    margin-top: 20px;
+    background: #fc9d3f;
+    height: 30px;
+    width: 56px;
+    float: right;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.food-list a .food-list-box .food-pen-icon, .food-list a .food-list-box .food-right-icon {
+    width: 230px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.food-list a .food-list-box .food-pen-icon:before {
+    background: url("../img/pen-icon.png") center no-repeat;
+}
+
+.food-list a .food-list-box .food-right-icon:before {
+    background: url("../img/right-icon.png") center no-repeat;
+}
+
+.food-list a .food-list-box .food-pen-icon:before, .food-list a .food-list-box .food-right-icon:before {
+    content: " ";
+    width: 12px;
+    height: 12px;
+    background-size: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+.food-list a .food-list-box .food-right-icon {
+    color: #9ece44;
+}
+
+/*大图区*/
+
+.food-content-BP {
+    width: 100%;
+    overflow: hidden;
+}
+
+.food-content-BP .food-content-BP-iphone {
+    width: 455px;
+    height: auto;
+    margin: 0 100px;
+    float: left;
+}
+
+.food-content-BP .food-content-BP-iphone img {
+    width: 100%;
+    display: block;
+}
+
+.food-content-BP .food-content-BP-WeChat {
+    width: 460px;
+    float: left;
+    padding-left: 62px;
+    margin-top: 35px;
+    position: relative;
+    color: #1d2428;
+}
+
+.food-content-BP .food-content-BP-WeChat:before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: url("../img/WeChat.png") center no-repeat;
+    background-size: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+.food-content-BP .food-content-BP-WeChat h3 {
+    font-size: 26px;
+    line-height: 52px;
+}
+
+.food-content-BP .food-content-BP-WeChat p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 32px;
+    display: block;
+    float: left;
+}
+
+.food-content-BP .food-content-BP-WeChat span {
+    margin-top:30px;
+    width: 144px;
+    height: 144px;
+    display: block;
+    float: left;
+}
+
+.food-content-BP .food-content-BP-WeChat span img{
+    width: 100%;
+    display: block;
 }
