@@ -8,6 +8,7 @@
 .food-top {
     width: 100%;
     height: 80px;
+    border-bottom:1px solid #e8e8e8;
     background: white;
 }
 
@@ -230,11 +231,11 @@
 /*大标题*/
 .food-content-title {
     height: 178px;
+    text-align: center;
     overflow: hidden;
 }
 
 .food-content-title p {
-    text-align: center;
     font-size: 12px;
     line-height: 24px;
     color: #bfc2c4;
@@ -242,7 +243,6 @@
 }
 
 .food-content-title h2 {
-    text-align: center;
     font-size: 26px;
     line-height: 52px;
     color: #1d2428;
@@ -514,4 +514,74 @@
 .food-content-BP .food-content-BP-WeChat span img{
     width: 100%;
     display: block;
+}
+
+.food-footer{
+    width: 100%;
+    height:80px;
+    border-top: 1px solid #e8e8e8;
+}
+
+.food-footer .food-footer-logo{
+    width: 260px;
+    height: 64px;
+    margin-top: 8px;
+    float: left;
+}
+
+.food-footer .food-footer-logo img{
+    height: 100%;
+    display: block;
+}
+
+.food-footer .food-footer-text{
+    height: 80px;
+    line-height: 80px;
+    margin-left: 30px;
+}
+
+/*classroomlist 小图*/
+
+.food-small-ad{
+    width: 100%;
+    height: 110px;
+    background: #9c9c9c;
+    overflow: hidden;
+}
+
+.food-small-ad img{
+    height: 100%;
+    display: block;
+}
+
+.food-content-title-two{
+    text-align: left;
+}
+.food-content-title-two span{
+    margin-left:40px;
+}
+
+/*菜品分类导航*/
+.foot-list-nav{
+    width: 100%;
+    height: 52px;
+    margin-bottom:30px;
+    border-bottom: 1px solid #c8c8c8;
+    overflow: hidden;
+}
+.foot-list-nav ul{
+    width: 100%;
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    display: block;
+}
+.foot-list-nav ul li{
+    float: left;
+    margin-right:50px;
+    cursor: pointer;
+}
+
+.foot-list-nav ul li:hover{
+    color: #fb8c00;
 }
