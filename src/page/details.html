@@ -1,19 +1,258 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta name="renderer" content="webkit">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-		<meta http-equiv="Pragma" content="no-cache"/>
-		<meta name="screen-orientation" content="portrait"/>
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta name="screen-orientation" content="portrait" />
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="format-detection" content="telephone=no">
 		<meta name="full-screen" content="yes">
 		<meta name="x5-fullscreen" content="true">
 		<title>美食课堂</title>
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/index.css">2
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/index.css">
 	</head>
+
 	<body>
+		<!--公用页头-->
+		<div class="food-top">
+			<div class="food-content">
+				<div class="food-logo">
+					<div class="food-logo-img">
+						<img src="../img/logo.png" alt="logo" />
+					</div>
+					<div class="food-logo-text">
+						<p>
+							<font>美食学堂</font>-五分钟学会一道拿手菜
+						</p>
+						<a href="#">
+							www.meishixuetang.com
+							<img src="../img/xy.png" />
+						</a>
+					</div>
+				</div>
+				<ul class="food-nav">
+					<li>
+						<a href="#">首页HOME</a>
+					</li>
+					<li>
+						<a href="page/classroom.html">课堂Class</a>
+					</li>
+					<li>
+						<a href="#">旗舰店MALL</a>
+					</li>
+					<li>
+						<a href="#food-drop-down">手机版MOBILE<span class="food-arrow-down"></span></a>
+						<div class="food-drop-down" id="food-drop-down">
+							<img src="../img/QR.png" alt="手机二维码-美食学堂" />
+							<span>用手机版更方便</span>
+						</div>
+					</li>
+				</ul>
+				<div class="food-seach">
+					<input type="seach" value="" name="seach" />
+					<span></span>
+				</div>
+			</div>
+		</div>
+
+		<!-- 小图 banner 区-->
+		<div class="food-content">
+			<div class="food-small-ad">
+				<img src="" alt="">
+			</div>
+			<!--Crumbs面包屑-->
+			<div class="food-crumbs">
+				<a href="">美食学堂 </a>-
+				<a href="">课堂 </a>-
+				<a href="">家常宫保鸡丁交互式学习课件</a>
+			</div>
+			<!--详情信息-->
+			<div class="food-details">
+				<div class="food-detaols-img">
+					<div class="food-detaols-img-box food-public-bg-img">
+						<img src="../img/details-img.png" alt="详情图" />
+						<!--图片 宽高比3:2-->
+					</div>
+					<ul>
+						<li class="food-public-bg-img"><img src="../img/details-img.png" alt="展示图0" /></li>
+						<!--图片 宽高比3:2-->
+						<li class="food-public-bg-img"><img src="../img/details-img.png" alt="展示图1" /></li>
+						<li class="food-public-bg-img"><img src="../img/details-img.png" alt="展示图2" /></li>
+						<li class="food-public-bg-img"><img src="../img/details-img.png" alt="展示图3" /></li>
+					</ul>
+				</div>
+				<div class="food-detaols-info">
+					<div class="food-detaols-info-title">
+						<h2>家常宫保鸡丁交互式学习课件</h2>
+						<h2 class="color-orange">RMB 6.8 元</h2>
+						<p class="color-orange">6286人已学</p>
+					</div>
+					<div class="food-detaols-synopsis">
+						<p>
+							<span>所需食材：</span>
+							<span>胡萝卜、红辣椒、鸡胸肉、咸盐、味精、花椒、淀粉、大蒜、香菜、料酒、淀粉、大蒜、香菜、料酒</span>
+						</p>
+						<p>
+							<span>必备厨具：</span>
+							<span>电磁炉、平底锅、餐盘、木制铲子、塑料碗</span>
+						</p>
+						<p>
+							<span>制作时间：</span>
+							<span>大约需要20分钟</span>
+						</p>
+					</div>
+					<div class="food-list-box-p f14lh28">
+						<div class="food-list-notes">难易程度“
+							<font>很简单</font>”</div>
+						<div class="food-list-notes food-notes-hover">
+							<ul class="food-list-notes-text">
+								<li>
+									<h4>难易程度分别为</h4>
+								</li>
+								<li>很简单</li>
+								<li>简单</li>
+								<li>复杂</li>
+								<li>很复杂</li>
+							</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="food-detaols-buy">立即购买</div>
+					<!--状态2： 开始学习 “study”-->
+					<div class="food-activity-cue">
+						<span>活动</span>
+						<span>联系右侧微信客服，转发朋友圈，即可免费获得本课件学习权限，每人限一款菜品。</span>
+					</div>
+				</div>
+			</div>
+			<!--详情图文/评论-->
+			<div class="food-imgtext">
+				<div class="food-imgtext-box">
+					<ul class="food-imgtext-nav">
+						<li>图文详情</li>
+						<li>评价/提问（<span>675</span>）</li>
+					</ul>
+					<!--切换1图文-->
+					<!--<div class="food-imgtext-content">
+						空置
+					</div>-->
+					<!--切换2评论提问-->
+					<div class="food-comment-quiz">
+						<div class="food-comment-quiz-div">
+							<textarea name="" rows="" cols="" placeholder="亲爱的，在制作过程中有什么疑问，或对本课件有什么想法，都可以写在这里哦！！"></textarea>
+							<button type="button">提交</button>
+							<span>只有完整学完本课件才能评价或提问哦^_^</span>
+						</div>
+						
+						<div class="food-comment-quiz-div">
+							<p><span>来自“<font class="color-orange">黑龙江-哈尔滨</font>”的小伙伴：</span></p>
+							<p>一定要清酒吗？是那种日本的清酒吗？可以别的代替不？</p>
+						</div>
+						<div class="food-comment-quiz-div">
+							<p><span>来自“<font class="color-orange">黑龙江-哈尔滨</font>”的小伙伴：</span></p>
+							<p>一定要清酒吗？是那种日本的清酒吗？可以别的代替不？</p>
+						</div>
+						<div class="food-comment-quiz-div">
+							<p><span>来自“<font class="color-orange">黑龙江-哈尔滨</font>”的小伙伴：</span></p>
+							<p>一定要清酒吗？是那种日本的清酒吗？可以别的代替不？一定要清酒吗？是那种日本的清酒吗？可以别的代替不？一定要清酒吗？是那种日本的清酒吗？可以别的代替不？一定要清酒吗？是那种日本的清酒吗？可以别的代替不？一定要清酒吗？是那种日本的清酒吗？可以别的代替不？一定要清酒吗？是那种日本的清酒吗？可以别的代替不？一定要清酒吗？是那种日本的清酒吗？可以别的代替不？一定要清酒吗？是那种日本的清酒吗？可以别的代替不？一定要清酒吗？是那种日本的清酒吗？可以别的代替不？一定要清酒吗？是那种日本的清酒吗？可以别的代替不？一定要清酒吗？是那种日本的清酒吗？可以别的代替不？</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="food-list food-imgtext-ad">
+					<!--壹-->
+					<a href="#">
+						<div class="food-list-img food-public-bg-img">
+							<img src="../img/details-img.png" alt="宫保鸡丁" />
+							<!--图片 宽高比3:2-->
+						</div>
+						<div class="food-list-box">
+							<h3>家常素炒宫保鸡丁<span>￥6.8元</span></h3>
+							<div class="food-list-box-p">
+								<div class="food-list-notes">难易程度“
+									<font>很简单</font>”</div>
+								<div class="food-list-notes food-notes-hover">
+									<ul class="food-list-notes-text">
+										<li>
+											<h4>难易程度分别为</h4>
+										</li>
+										<li>很简单</li>
+										<li>简单</li>
+										<li>复杂</li>
+										<li>很复杂</li>
+									</ul>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="food-list-box-p">
+								<font>6286人已学</font>
+							</div>
+						</div>
+					</a>
+					<!--贰-->
+					<a href="#">
+						<div class="food-list-img food-public-bg-img">
+							<img src="../img/details-img.png" alt="宫保鸡丁" />
+							<!--图片 宽高比3:2-->
+						</div>
+						<div class="food-list-box">
+							<h3>家常素炒宫保鸡丁<span>￥6.8元</span></h3>
+							<div class="food-list-box-p">
+								<div class="food-list-notes">难易程度“
+									<font>很简单</font>”</div>
+								<div class="food-list-notes food-notes-hover">
+									<ul class="food-list-notes-text">
+										<li>
+											<h4>难易程度分别为</h4>
+										</li>
+										<li>很简单</li>
+										<li>简单</li>
+										<li>复杂</li>
+										<li>很复杂</li>
+									</ul>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="food-list-box-p">
+								<font>6286人已学</font>
+							</div>
+						</div>
+					</a>
+					<!--问答-->
+					<a href="javascript:void(0)">
+						<div class="food-list-box">
+							<h2>什么？</br>没有你要学的？</h2>
+							<div class="food-input-text">
+								<input type="text" value="">
+							</div>
+							<button type="button">提交</button>
+							<div class="food-list-box-p food-pen-icon">
+								<!--"food-right-icon"-->
+								在上面写下你要学的菜品，</br>
+								并提交给我们，</br>
+								我们将尽快根据大家的需求，</br>
+								推出相应课件。
+							</div>
+						</div>
+					</a>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+
+		<!--公用结底部-->
+		<div class="food-footer">
+			<div class="food-content">
+				<div class="food-footer-logo">
+					<img src="../img/logo-gray.png" alt="logo">
+				</div>
+				<div class="food-footer-text">© 2017 ALL Rights Reserved</div>
+			</div>
+		</div>
 	</body>
+
 </html>

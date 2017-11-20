@@ -67,5 +67,11 @@ table {
 }
 
 .clear {
-    clear: both
+    clear: both;
 }
+
+.color-orange{
+	color: #fb8c00;
+}
+
+
