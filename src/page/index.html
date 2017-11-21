@@ -7,17 +7,39 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<meta name="renderer" content="webkit">
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		<!--测试用清除缓存-->
 		<meta http-equiv="Pragma" content="no-cache" />
-		<meta name="screen-orientation" content="portrait" />
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="format-detection" content="telephone=no">
-		<meta name="full-screen" content="yes">
-		<meta name="x5-fullscreen" content="true">
+		<meta http-equiv="Cache-Control" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+		<!-- -->
+		<meta name="renderer" content="webkit">
+		<!--强制360使用极速模式-->
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		<!--指定使用谷歌内核渲染-->
+		<meta name="description" content="" />
+		<!--描述-->
+		<meta name="keywords" content="美食课堂" />
+		<!--关键词-->
 		<title>美食课堂</title>
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/index.css">
+		<link rel="stylesheet" type="text/css" href="../css/swiper-3.4.2.min.css" />
+		<style type="text/css">
+			/*banner 属性修改*/
+			.swiper-container {
+				width: 100%;
+				height: 560px;
+			}
+			.swiper-pagination-bullet {
+				border: 3px solid #514b48;
+				background: none;
+				opacity: 1;
+			}
+			.swiper-pagination-bullet-active{
+				border: 3px solid #fb8c00;
+				background: none;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -26,7 +48,7 @@
 			<div class="food-content">
 				<div class="food-logo">
 					<div class="food-logo-img">
-						<img src="img/logo.png" alt="logo" />
+						<img src="../img/logo.png" alt="logo" />
 					</div>
 					<div class="food-logo-text">
 						<p>
@@ -34,7 +56,7 @@
 						</p>
 						<a href="#">
 							www.meishixuetang.com
-							<img src="img/xy.png" />
+							<img src="../img/xy.png" />
 						</a>
 					</div>
 				</div>
@@ -51,7 +73,7 @@
 					<li>
 						<a href="#food-drop-down">手机版MOBILE<span class="food-arrow-down"></span></a>
 						<div class="food-drop-down" id="food-drop-down">
-							<img src="img/QR.png" alt="手机二维码-美食学堂" />
+							<img src="../img/QR.png" alt="手机二维码-美食学堂" />
 							<span>用手机版更方便</span>
 						</div>
 					</li>
@@ -64,7 +86,34 @@
 		</div>
 		<!-- 大图banner-->
 		<div class="food-banner">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="food-banner-img">
+							<img src="../img/banenr.png"/>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="food-banner-img">
+							<img src="../img/banenr.png"/>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="food-banner-img">
+							<img src="../img/banenr.png"/>
+						</div>
+					</div>
+				</div>
 
+				<!-- 分页器 -->
+				<div class="swiper-pagination"></div>
+				<!-- 导航按钮 -->
+				<div class="food-banne-button">
+					<div class="food-button-prev"></div>
+					<div class="food-button-next"></div>
+				</div>
+
+			</div>
 		</div>
 
 		<!--中间内容区-->
@@ -78,7 +127,7 @@
 				<!--壹-->
 				<a href="#">
 					<div class="food-list-img food-public-bg-img">
-						<img src="img/details-img.png" alt="宫保鸡丁" />
+						<img src="../img/details-img.png" alt="宫保鸡丁" />
 						<!--图片 宽高比3:2-->
 					</div>
 					<div class="food-list-box">
@@ -107,7 +156,7 @@
 				<!--贰-->
 				<a href="#">
 					<div class="food-list-img food-public-bg-img">
-						<img src="img/details-img.png" alt="宫保鸡丁" />
+						<img src="../img/details-img.png" alt="宫保鸡丁" />
 					</div>
 					<div class="food-list-box">
 						<h3>家常素炒宫保鸡丁<span>￥6.8元</span></h3>
@@ -135,7 +184,7 @@
 				<!--叁-->
 				<a href="#">
 					<div class="food-list-img food-public-bg-img">
-						<img src="img/details-img.png" alt="宫保鸡丁" />
+						<img src="../img/details-img.png" alt="宫保鸡丁" />
 					</div>
 					<div class="food-list-box">
 						<h3>家常素炒宫保鸡丁<span>￥6.8元</span></h3>
@@ -163,7 +212,7 @@
 				<!--肆-->
 				<a href="#">
 					<div class="food-list-img food-public-bg-img">
-						<img src="img/details-img.png" alt="宫保鸡丁" />
+						<img src="../img/details-img.png" alt="宫保鸡丁" />
 					</div>
 					<div class="food-list-box">
 						<h3>家常素炒宫保鸡丁<span>￥6.8元</span></h3>
@@ -191,7 +240,7 @@
 				<!--伍-->
 				<a href="#">
 					<div class="food-list-img food-public-bg-img">
-						<img src="img/details-img.png" alt="宫保鸡丁" />
+						<img src="../img/details-img.png" alt="宫保鸡丁" />
 					</div>
 					<div class="food-list-box">
 						<h3>家常素炒宫保鸡丁<span>￥6.8元</span></h3>
@@ -219,7 +268,7 @@
 				<!--陆-->
 				<a href="#">
 					<div class="food-list-img food-public-bg-img">
-						<img src="img/details-img.png" alt="宫保鸡丁" />
+						<img src="../img/details-img.png" alt="宫保鸡丁" />
 					</div>
 					<div class="food-list-box">
 						<h3>家常素炒宫保鸡丁<span>￥6.8元</span></h3>
@@ -247,7 +296,7 @@
 				<!--柒-->
 				<a href="#">
 					<div class="food-list-img food-public-bg-img">
-						<img src="img/details-img.png" alt="宫保鸡丁" />
+						<img src="../img/details-img.png" alt="宫保鸡丁" />
 					</div>
 					<div class="food-list-box">
 						<h3>家常素炒宫保鸡丁<span>￥6.8元</span></h3>
@@ -299,7 +348,7 @@
 
 			<div class="food-content-BP">
 				<div class="food-content-BP-iphone">
-					<img src="img/BP.png" alt="手机登录学做菜更方便" />
+					<img src="../img/BP.png" alt="手机登录学做菜更方便" />
 				</div>
 				<div class="food-content-BP-WeChat">
 					<h3>用微信扫描打开即可</h3>
@@ -307,7 +356,7 @@
 					<p>APP正在努力开发中，敬请期待……</p>
 					<p>点击一下为我们加油^_^</p>
 					<span>
-                <img src="img/QR.png" alt="微信扫一扫登录美食学堂"/>
+                <img src="../img/QR.png" alt="微信扫一扫登录美食学堂"/>
             </span>
 				</div>
 			</div>
@@ -316,12 +365,28 @@
 		<div class="food-footer">
 			<div class="food-content">
 				<div class="food-footer-logo">
-					<img src="img/logo-gray.png" alt="logo">
+					<img src="../img/logo-gray.png" alt="logo">
 				</div>
 				<div class="food-footer-text">© 2017 ALL Rights Reserved</div>
 			</div>
 		</div>
 	</body>
-	<script src="plug/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../plug/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../plug/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		$(document).ready(function() {
+			var mySwiper = new Swiper('.swiper-container', {
+				direction: 'horizontal',
+				autoplay: 5000, //切换间隔时间
+				loop: true,
+				// 如果需要分页器
+				pagination: '.swiper-pagination',
+				// 如果需要前进后退按钮
+				nextButton: '.food-button-next',
+				prevButton: '.food-button-prev',
+				paginationClickable: true,
+			})
+		})
+	</script>
 
 </html>
